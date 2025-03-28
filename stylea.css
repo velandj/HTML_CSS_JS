@@ -1,0 +1,40 @@
+ body {
+   background: url("alumnii.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   color: white;
+   background-size: 100%;
+
+   font-family: monospace;
+   margin-right: 510px;
+   margin-left: 50px;
+   height: 100%
+ }
+
+ h1 {
+   font-family: serif;
+   margin-left: 50px;
+ }
+
+ legend {
+   font-size: 0.8em;
+   color: blue;
+   font-family: "Times New Roman";
+   animation: colorChange 3s infinite alternate;
+
+ }
+
+ @keyframes colorChange {
+   from {
+     color: yellow;
+   }
+
+   to {
+     color: green;
+   }
+ }
+
+ a {
+   text-decoration: none;
+   animation: colorChange 3s infinite alternate;
+ }

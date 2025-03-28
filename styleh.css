@@ -1,0 +1,65 @@
+body {
+  background-image:url("homeb.jpg");
+color:white;
+  backround-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  h1{
+    font-family:"Times New Roman";
+    font-variant:small-caps;
+    
+  }
+.topnav{
+overflow:hidden;
+background-color:black;
+  
+}
+.topnav a{
+float: right;
+color:gray;
+text-align:center;
+padding:16px 17px;
+font-size:17px;
+  text-decoration:none;
+
+}
+.topnav a:hover {
+  background-color:black;
+  color: white;
+font-size:25px;
+}
+
+.topnav a.active{
+background-color:green;
+color:white;
+}
+a{
+text-decoration:none;
+color:gray;
+}
+.profile{
+border:solid white;
+
+
+}
+button:hover{
+background-color:
+font-size:20px;
+}
+button{
+backround-color:green;
+}
+.bottom{
+color:gray;
+font-size:20px;
+
+}
+h5:hover{
+color:white;
+}
+
+

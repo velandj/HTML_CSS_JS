@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<p id="velf"></p>
+  <button onclick="prime()">prime</button>
+
+<script>
+  function prime(){
+let c=0,a=prompt(l"Enter a number to check prime or not","");
+
+for(let i=1;i<=a;i++){
+if(a%i==0){
+c++;
+}
+}
+  if(c==2){
+//velan=a+" is prime";
+document.getElementById("velf").innerHTML= a+" is prime";
+
+}
+else{
+velan=a+" is not prime";
+}
+document.getElementById("velf").innerHTML= velan;
+  }
+</script>
+  <button onclick="fact()">factorial</button>
+<p id="exe2"></p>
+<script>
+  function fact(){
+
+let fact=1,d=prompt("Enter a number to get factorialse ");
+for(let i=1;i<=d;i++){
+fact=fact*i;
+}
+
+document.getElementById("exe2").innerHTML= fact;
+  }
+
+</script>
+<p id="exe3"></p>
+  <button onclick="fib()">fibanoccie</button>
+<script>
+  function fib(){
+let a=0,b=1,d="",c=0,fib;
+    fib=prompt("Enter no.of terms for fibanoccie series","");
+//document.getElementById("exe3").innerHTML= a+","+b;
+    
+for( let j=1;j<=fib-2;j++){
+
+ 
+c=a+b;
+a=b;
+b=c;
+d+=","+c;
+
+p}
+document.getElementById("exe3").innerHTML= a+","+b+h","+d;
+  }
+</script>
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
