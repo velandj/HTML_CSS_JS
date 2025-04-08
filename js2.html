@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+
+<script>
+function gcd(){
+let a=prompt("Enter first number for gcd"),b=prompt("Enter second number");
+for(let i=1;i<=a;i++){
+if(a%i==0 && b%i==0){
+d=i;
+}
+}
+document.getElementById("exe1").innerHTML=d+" is the gcd of "+a+" and "+b;
+}
+ function ctf(){
+let a=prompt("Enter degree in celcius"),b=0;
+b=(a*9/5)+32;
+
+document.getElementById("exe2").innerHTML=b+" is farenheit for " +a+" celcius";
+} 
+ function vowel(){
+  var str=prompt("Enter a string","");
+  var c=0;
+  const vowel = new Set(['a','e','i','o','u','A','E','I','O','U']);
+  for(let cha of str)
+  {
+   if(vowel.has(cha)){
+    c++;
+   }
+  }
+  document.getElementById("exe1").innerHTML="count is "+c;
+ }
+</script>
+
+ <button onclick="gcd()">GCD</button>
+
+ <button onclick="ctf()">celcius to farenheit</button>
+  <button onclick="vowel()">Count vowels</button>
+<p id="exe1"></p>
+<p id="exe2"></p>
+<p id="exe3"></p>
+</body>
+
+
+</html>
