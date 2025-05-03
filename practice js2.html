@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            js 2
+        </title>
+    </head>
+    <body>
+        <button id="cha" onclick="change()">change</button>
+         <h1 id="up"> Name</h1>
+        <button onclick="upname(event)">dj</button>
+        <button onclick="upname(event)">velan</button>
+        <button onclick="upname(event)">game</button>
+   
+    <script>
+        function change(){
+            cha.style.backgroundColor="red";
+            cha.style.width="100px";
+            cha.style.height="100px";
+            cha.style.transition="2s";
+        }
+        var x=document.getElementById("up")
+        function upname(event){
+            x.textContent=event.target.textContent
+        }
+    </script>
+     </body>
+</html>

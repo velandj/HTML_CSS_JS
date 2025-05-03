@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>js css</title>
+    <style>
+        div{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            
+        }
+        .cl{
+            width: 500px;
+            background-color: blue;
+            transition: 2s;
+        }
+    </style>
+    </head>
+    <body>
+        <div id="box">
+        </div>
+        <button onclick="change()" >change</button>
+        <br>
+        <br>
+
+        <input id="inputbox" onkeyup="cha()">
+        
+        <h1 id="res"></h1>
+        <button onclick="add()" >add</button>
+        <p id="ad"></p>
+        <script>
+            //var a=document.getElementById("box");
+            function change(){
+              box.setAttribute("class","cl")
+              
+            }
+            function cha()
+            {
+                
+                document.getElementById("res").textContent=document.getElementById("inputbox").value;
+            }
+            function add(){
+                var fun=document.createElement("p");
+                fun.textContent="hello"
+                document.getElementById("ad").append("daa");
+            }
+            
+        </script>
+    </body>
+
+</html>
